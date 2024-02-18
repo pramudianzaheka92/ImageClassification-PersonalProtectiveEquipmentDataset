@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Helmet', 'No Helmet', 'No Protective Clothing', 'Protective Clothing']
+
+roboflow:
+  workspace: latest-version
+  project: new-ppe
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/latest-version/new-ppe/dataset/1
