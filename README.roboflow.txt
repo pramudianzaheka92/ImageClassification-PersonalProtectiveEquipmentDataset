@@ -1,8 +1,8 @@
 
-construction safety - v2 release
+new ppe - v1 2022-04-09 1:56pm
 ==============================
 
-This dataset was exported via roboflow.com on January 26, 2023 at 4:38 PM GMT
+This dataset was exported via roboflow.com on July 25, 2023 at 10:25 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,11 +17,16 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 1206 images.
-Construction-safety are annotated in YOLOv8 format.
+The dataset includes 427 images.
+T are annotated in YOLOv8 format.
 
 The following pre-processing was applied to each image:
+* Auto-orientation of pixel data (with EXIF-orientation stripping)
+* Resize to 416x416 (Stretch)
 
-No image augmentation techniques were applied.
+The following augmentation was applied to create 1 versions of each source image:
+
+The following transformations were applied to the bounding boxes of each image:
+* Randomly crop between 0 and 15 percent of the bounding box
 
 
